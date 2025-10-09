@@ -137,11 +137,11 @@ while (true) {
             break;
 
         case 5:
-            echo "Encerrando o programa...\n";
+            echo "Programa sendo encerrado em 3,2,1..\n";
             exit;
 
         default:
-            echo "Opção inválida. Tente novamente.\n";
+            echo "Opção inválida. Tente novamente, qualquer coisa tente de novo.\n";
             break;
     }
 }
