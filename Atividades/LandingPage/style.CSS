@@ -1,0 +1,35 @@
+*{
+padding: 0;
+margin: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+  
+  padding: 0;
+    margin: 10%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.margem{
+  border: 5px solid rgb(255, 255, 255);
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  flex-direction: column; 
+}
+.coluna_1 {
+justify-content: center;
+flex-direction: row;
+}
+.tijolos{
+  display: flex;
+}
+nav{
+  display: flex;
+  justify-content: center;
+}
